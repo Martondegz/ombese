@@ -1,0 +1,74 @@
+header {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 30px;
+    padding: 20px;
+    margin-left: 30px;
+    padding-top: 80px;
+    color: #fff;
+}
+
+nav {
+    padding: 30px;
+    background-color: black;
+}
+
+ul {
+    text-align: center;
+}
+
+li a {
+    padding: 50px;
+    color: aqua;
+    text-decoration: none;
+    font-family: 'Chathura', sans-serif;
+    font-size: 25px;
+}
+
+li a:hover {
+    color: white;
+}
+
+li {
+    list-style: none;
+    margin-right: 30px;
+    display: inline;
+}
+
+.wrapper {
+    background-color: black;
+}
+
+.fluidcover {
+    background: linear-gradient(rgba(19, 27, 23, 0.80), rgba(19, 27, 23, 0.80)), url(images/portfolio.jpg);
+    height: 600px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.myself p {
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.aboutme {
+    text-align: center;
+    color: #fff;
+}
+
+.aboutme h3 {
+    font-family: 'Orbitron', sans-serif;
+}
+
+.aboutme p {
+    font-family: 'Chathura', sans-serif;
+    font-size: 30px;
+}
+
+.divider {
+    background-image: url(images/tech.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    background-attachment: fixed;
+}
