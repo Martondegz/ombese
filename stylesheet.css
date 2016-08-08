@@ -22,7 +22,7 @@ li a {
     text-decoration: none;
     font-family: 'Chathura', sans-serif;
     font-size: 25px;
-    transition: 0.6s;
+    transition: 0.6s ease-out;
     border-right: 2px solid rgba(35, 56, 67, 0.67);
     padding: 30px 8px 0 10px;
     margin: 0 10px;
@@ -99,5 +99,14 @@ footer {
 }
 
 footer i {
-    padding: 20px;
+    transition: 0.7s ease;
+    border-right: 2px solid rgba(35, 56, 67, 0.67);
+    padding: 30px 8px 0 10px;
+    margin: 0 10px;
+}
+
+footer i:hover {
+    color: red;
+    border right: 2px dotted #fff;
+    padding-bottom: 24px;
 }
