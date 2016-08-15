@@ -52,7 +52,7 @@ li {
     background-repeat: no-repeat;
 }
 
-.mail {
+#mail {
     -webkit-transform: rotate(270deg);
     -moz-transform: rotate(270deg);
     -o-transform: rotate(270deg);
@@ -62,7 +62,7 @@ li {
     bottom: 200px;
 }
 
-.myself p {
+#myself p {
     padding-right: 100px;
     padding-left: 100px;
 }
